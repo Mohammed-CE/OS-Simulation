@@ -40,27 +40,17 @@ Each job in the jobs queue is defined as a sequence of several CPU-burst / IO bu
 
 Job description Explanation
 
-Name                    Process name
-
-15 11       CPU-burst of 15ms – Memory required 11 MB
-
-3           I/O burst of 3ms
-
-5 4         CPU-burst of 5ms – Additional memory required 4 MB
-
-6           I/O burst of 6ms
-
-3 -6        CPU-burst of 3ms – Free 6 MB of the allocated memory
-
-1           I/O burst of 1ms
-
-3 0         CPU-burst of 3ms – No change in memory
-
--1          Job terminates after the last CPU-burst
-| First Header  | Second Header |
+     
+| Name  | Process name |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 15 11  | CPU-burst of 15ms – Memory required 11 MB  |
+| 3  | I/O burst of 3ms  |
+| 5 4  | CPU-burst of 5ms – Additional memory required 4 MB  |
+| 6  | I/O burst of 6ms  |
+| 3 -6   | CPU-burst of 3ms – Free 6 MB of the allocated memory  |
+| 1  | I/O burst of 1ms  |
+| 3 0  | CPU-burst of 3ms – No change in memory  |
+| -1  | Job terminates after the last CPU-burst  |
 
 Initialization phase:
 You should perform the following steps before running the simulation:
@@ -80,8 +70,7 @@ and if the I/O burst of a process has ended. It should also check if any waiting
 can be reactivated and put in the ready queue.
 
 Output from the simulation:
-A text file containing statistics about all processes and their final status TERMINATED
-or KILLED. Statistics about a process should contain:
+A text file containing statistics about all processes and their final status TERMINATED or KILLED. Statistics about a process should contain:
 a. Process ID
 b. Program name
 c. When it was loaded into the ready queue.
