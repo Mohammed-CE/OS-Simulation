@@ -43,13 +43,21 @@ Job description Explanation
 Name                    Process name
 
 15 11       CPU-burst of 15ms – Memory required 11 MB
+
 3           I/O burst of 3ms
+
 5 4         CPU-burst of 5ms – Additional memory required 4 MB
+
 6           I/O burst of 6ms
+
 3 -6        CPU-burst of 3ms – Free 6 MB of the allocated memory
+
 1           I/O burst of 1ms
+
 3 0         CPU-burst of 3ms – No change in memory
+
 -1          Job terminates after the last CPU-burst
+
 
 Initialization phase:
 You should perform the following steps before running the simulation:
