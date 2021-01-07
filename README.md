@@ -35,8 +35,7 @@ TERMINATED or KILLED.
 load more jobs until the 80% of the memory is full.
 
 Program specifications:
-Each job in the jobs queue is defined as a sequence of several CPU-burst / IO burst as
-follows:
+Each job in the jobs queue is defined as a sequence of several CPU-burst / IO burst as follows:
 Job description Explanation
 Name                    Process name
 15 11       CPU-burst of 15ms – Memory required 11 MB
