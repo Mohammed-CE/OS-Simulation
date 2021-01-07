@@ -57,7 +57,10 @@ Name                    Process name
 3 0         CPU-burst of 3ms – No change in memory
 
 -1          Job terminates after the last CPU-burst
-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 Initialization phase:
 You should perform the following steps before running the simulation:
