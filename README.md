@@ -70,7 +70,9 @@ and if the I/O burst of a process has ended. It should also check if any waiting
 can be reactivated and put in the ready queue.
 
 Output from the simulation:
+
 A text file containing statistics about all processes and their final status TERMINATED or KILLED. Statistics about a process should contain:
+
 a. Process ID
 b. Program name
 c. When it was loaded into the ready queue.
