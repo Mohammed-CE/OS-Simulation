@@ -72,16 +72,16 @@ can be reactivated and put in the ready queue.
 Output from the simulation:
 
 A text file containing statistics about all processes and their final status TERMINATED or KILLED. Statistics about a process should contain:
-a. Process ID
-b. Program name
-c. When it was loaded into the ready queue.
-d. Number of times it was in the CPU.
-e. Total time spent in the CPU
-f. Number of times it performed an IO.
-g. Total time spent in performing IO
-h. Number of times it was waiting for memory.
-i. Time it terminated or was killed
-j. Its final state: Killed or Terminated
-k. CPU Utilization
-l. Waiting time.
-m. Turnaround time
+*  a. Process ID
+*  b. Program name
+*  c. When it was loaded into the ready queue.
+*  d. Number of times it was in the CPU.
+*  e. Total time spent in the CPU
+*  f. Number of times it performed an IO.
+*  g. Total time spent in performing IO
+*  h. Number of times it was waiting for memory.
+*  i. Time it terminated or was killed
+*  j. Its final state: Killed or Terminated
+*  k. CPU Utilization
+*  l. Waiting time.
+*  m. Turnaround time
