@@ -1,13 +1,13 @@
 # OS-Simulation
 Multiprogramming OS Simulation Batch processing and Memory Allocation
 Available computer system for the simulation has:
-Hardware:
+### Hardware:
 The computer hardware is assumed to have:
 1. A RAM of size 256MB, where 16MB is used to store the OS.
 2. A single core CPU that executes one instruction each unit of time.
 3. An I/O device for input and output operations.
 4. An internal clock that allows to measure time in milliseconds.
-Operating System:
+### Operating System:
 The operating system is the multiprogramming OS. We would be interested in only two
 features in this simulation: The Job and CPU scheduling.
 1. Job Scheduling: The system implements multiprogramming batch processing.
@@ -34,7 +34,7 @@ TERMINATED or KILLED.
 10. Every 100 milliseconds, the long term scheduler will wake-up, check the memory and
 load more jobs until the 80% of the memory is full.
 
-Program specifications:
+### Program specifications:
 
 Each job in the jobs queue is defined as a sequence of several CPU-burst / IO burst as follows:
 
@@ -52,7 +52,7 @@ Job description Explanation
 | 3 0  | CPU-burst of 3ms – No change in memory  |
 | -1  | Job terminates after the last CPU-burst  |
 
-Initialization phase:
+### Initialization phase:
 You should perform the following steps before running the simulation:
 1. Load all jobs in the jobs file into a jobs queue in memory
 2. Start the system clock (in milliseconds)
@@ -69,7 +69,7 @@ Cycle. At each millisecond, the scheduler will check if a job CPU-burst has ende
 and if the I/O burst of a process has ended. It should also check if any waiting process
 can be reactivated and put in the ready queue.
 
-Output from the simulation:
+### Output from the simulation:
 
 A text file containing statistics about all processes and their final status TERMINATED or KILLED. Statistics about a process should contain:
 *  a. Process ID
