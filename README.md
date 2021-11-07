@@ -1,8 +1,8 @@
 # OS-Simulation
-By:
-Mohammed Almansour
-Yazeed Almusallam
-Abdulrahman Almazroa 
+By: </br>
+Mohammed Almansour </br>
+Yazeed Almusallam </br>
+Abdulrahman Almazroa </br>
 ### About:
 Multiprogramming OS Simulation Batch processing and Memory Allocation
 Available computer system for the simulation has:
